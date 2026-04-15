@@ -1,1 +1,1 @@
-# Wanderlust
+# Wanderlust - Nearby Destination Booking App:
