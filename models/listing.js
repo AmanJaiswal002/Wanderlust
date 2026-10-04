@@ -22,15 +22,7 @@ const listingSchema = new Schema({
 
         },
     ],
-    geometry: {
-        type: {
-          type: String, 
-          enum: ['Point'],
-        },
-        coordinates: {
-          type: [Number],
-        }
-      },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: "User",
